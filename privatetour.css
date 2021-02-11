@@ -1,0 +1,552 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+}
+
+.top{
+    width: 85%;
+    margin: 0 auto;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.lines{
+    padding:22px 16px;
+    float: left;
+    font-size: 28px;
+}
+.touch{
+    width: 120px;
+    padding: 5px;
+    border: 1px solid green;
+    float: right;
+    margin-top: 30px;    		
+
+  }
+ i{
+  margin-right: 10px;
+ }
+    .touch span{
+        font-size: 8px;
+    }
+    .image{
+        width: 400px;
+        margin: 0 auto;
+        padding: 12px 0;
+    }
+    	    .bg{
+    	    	background-image: url("Bora-Bora-Jet-Ski1-2000x1200_31226.jpg");
+    	    	height: 420px;
+    	    	background-position: center;
+    	    	background-repeat: no-repeat;
+    	    	background-size: cover;
+    	    	position: relative;
+    	    }
+    	    .text{
+    	    	position: absolute;
+    	    	padding: 8px 16px;
+    	    	left: 8%;
+    	    	top: 35%;
+    	    }
+    	    .text h2{
+    	    	color: white;
+    	    	margin-bottom: 5px;
+    	    }
+    	    .text h1{
+    	    	font-size: 45px;
+    	    	color: white;
+    	    	margin-top: 10px;
+    	    }
+    	    .private{
+    	    	padding: 25px 0;
+    	    	text-align: center;
+    	    	width: 60%;
+    	    	margin: 0 auto;
+    	    }
+    	    .private h1{
+    	    	color: #4A5834;
+    	    	padding-top: 10px;
+    	    }
+    	    .private p{
+    	    	color: #707070;
+    	    	font-size: 16px;
+    	    	padding-bottom: 15px;
+    	    }
+    	    .trips{
+    	    	width:90%;
+    	    	margin: 0 auto;
+    	    	display: flex;
+    	    	flex-wrap: wrap;
+    	    	justify-content: space-around;
+    	    	padding: 25px 0;
+
+    	     	    }
+    	    
+    	    .tailor{
+    	    	width:45%;
+    	    	padding: 10px 18px;
+    	    	background-color: #9BCD52;
+    	       
+    	    	
+    	    }
+    	    .tailor,.tailor1 h1{
+    	    	color: white;
+    	    	padding-left: 20px;
+    	    }
+    	    .tailor,.tailor1 p{
+    	    	padding-left: 20px;
+    	    	color: white;
+    	    }
+    	    .tailor1{
+    	    	width:45%;
+    	       	padding: 10px 18px;
+    	    	background-color: #4B5B34;
+    	 
+    	    }
+    	    .container{
+    	    	background-image: url("Casa-del-Mare-beach.jpg");
+    	     	height: 600px;
+    	     	background-position: center;
+    	     	background-repeat: no-repeat;
+    	     	background-size: cover;
+    	     	position: relative;
+    	     	padding: 35px 0;
+    	     
+    	    }
+    	    .let{
+    	    	width: 50%;
+                margin: 0 auto;
+                text-align: center;
+    	        	    
+
+    	    }
+            .let h1{
+                color: white;
+
+            }
+    	    .container1{
+    	    	position: absolute;
+    	    	width: 80%;
+    	    	margin: 0 auto;
+    	    	background-color:black;
+    	    	height: 45%;
+    	    	top: 30%;
+    	    	left: 10%;
+    	    	display: flex;
+    	    	flex-wrap: wrap;
+    	    	justify-content: space-around;
+
+    	    	background:rgba(0,0,0,0.7);
+    	    }
+    	    .info{
+    	    	width: 26.66%;
+    	    	text-align: center;
+    	    }
+    	    .info img{
+    	    	margin-top: 30%;
+    	    	filter: brightness(0) invert(1);
+    	    }
+    	    .info p{
+    	    	color: white;
+    	    }
+    	    .get{
+    	    	position: absolute;
+    	    	padding: 12px 24px;
+    	    	width: 160px;
+    	    	text-align: center;
+    	    	color: white;
+    	    	background-color: #9BCD52;
+    	    	top: 93%;
+    	    	font-size: 14px;
+    	    	font-weight: bold;
+    	    }
+    	    .inspire{
+    	    	width: 60%;
+    	    	margin: 0 auto;
+    	    	text-align: center;
+    	    	padding: 25px 0;
+    	   	}
+    	   	.inspire h1{
+    	   		color: black;
+    	   	}
+    	   	.inspire p{
+    	   		color: #6F6F6F;
+    	   	}
+    	   	.gallery{
+    	   		width:90%;
+    	   		margin: 0 auto;
+    	   		display: flex;
+    	   		flex-wrap: nowrap;
+    	   		justify-content: center;
+    	   	}
+    	   	.one{
+    	   		width:40%;
+    	   		position: relative;
+    	   		height: 280px;
+    	   		background-color: black;
+    	   		margin: 1px;
+    	   	}
+    	   	.one img{
+    	   		width: 100%;
+        		height: 100%;
+       			object-fit: cover; 
+    	   	}
+
+    	   	.two{
+    	   		width:25%;
+    	   		overflow: hidden;
+    	   		height: 280px;
+    	   		margin:1px;
+    	   		position: relative;
+    	   	}
+    	   	.two img{
+    	   		width: 100%;
+        		height: 100%;
+       			object-fit: cover; 
+    	   	}
+    	   	.more{
+    	   		position: absolute;
+    	   		top: 20%;
+    	   		left: 6%;
+    	   	}
+    	   	.more,.more1 h1{
+    	   		color: white;
+    	   	}
+    	   	.more p{
+    	   		color: white
+    	   	}
+    	  .more1{ 
+    	  	position: absolute;
+    	  	bottom: 0;
+    	  	left:6%; 
+    	  }
+    	  .gallery1{
+    	  		width: 90%;
+    	   		margin: 0 auto;
+    	   		display: flex;
+    	   		flex-wrap: nowrap;
+    	   		justify-content: center;
+    	   		
+    	  }
+    	  .section2{
+    	  	padding: 40px 0;
+    	  	background-color: #EEEEEE;
+    	  	margin-top: 20px;
+    	  }
+    	  .content{
+    	  	width: 90%;
+    	  	margin: 0 auto;
+    	  	display: flex;
+    	  	flex-wrap: wrap;
+            justify-content: space-around;
+    	  }
+    	  .guides{
+    	  	width: 45%;
+    	  	padding: 8px 16px;
+    	  }
+    	  .guides h1{
+    	  	color: #4A5C36;
+
+    	  }
+    	  .photo{
+    	  	display: flex;
+    	  	flex-wrap: wrap;
+    	 	 justify-content: space-between;
+
+    	  }
+          .photo img{
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            margin: 10px 0;
+            object-fit: cover;
+          }
+    	
+    	 .meet{
+    	 	padding: 12px 14px;
+    	 	width: 180px;
+    	 	color: white;
+    	 	font-weight: bold;
+    	 	text-align: center;
+    	 	background-color:#9BCD52; 
+    	 	font-size: 14px;
+    	 	margin-top: 25px;
+
+    	 }
+         .experience{
+            width: 45%;
+         }
+    	 .experience1{
+    	 	width: 100%;
+    	 	background-color: white;
+    	 	padding: 8px 16px;
+    	 	height: 250px;
+    	 	margin-top: 30px;
+    	 }
+    	 .experience p{
+    	 	color: #C3C3C3;
+    	 	padding-left: 10px;
+    	 	margin-top: 0;
+    	 	padding-top: 5px;
+    	 }
+    	 .experience h4{
+    	 	padding-left: 10px;
+    	 	margin-bottom:8px;
+    	 	margin-top: 3px;
+
+    	 }
+         .dot{
+            height: 14px;
+            width: 14px;
+            background-color: #00A47E;
+            border-radius: 50%;
+            display: inline-block;
+         }
+         .review{
+            color: #A9A9A9;
+            font-size: 12px;
+           }
+           .trip{
+            width:50px; 
+            margin-top:35px; 
+            margin-right: 60px;
+            float: left;
+           }
+           .barahona{
+            width: 150px;
+            float: left;
+            margin-top:35px; 
+            margin-left:55px;
+           }
+           .barahona h5{
+             color: #737373;
+             font-size: 17px;
+             margin-top: 0;
+             margin-bottom: 15px;
+           }
+           .section{
+                background-color: #9BCD52;
+                padding: 25px 0;
+            }
+            .section1{
+                width: 85%;
+                margin: 0 auto;
+                padding: 30px 0;
+                overflow: hidden;
+            }
+            .book{
+                width: 65%;
+                padding: 8px 16px;
+                overflow: hidden;
+                float: left;
+        }
+        .calendar{
+            width: 15%;
+            float: left;
+            color: white;
+        }
+        .now{
+            width: 45%;
+            float: left;
+            
+            
+        }
+        .now h1{
+            color: white;
+            margin-top: 0;
+            margin-bottom: 0;
+            text-align: start;
+
+        }
+        .now p{
+            margin-top: 0;
+            font-size: 24px;
+            color: #5C7A30;
+            text-align: start;
+        }
+        .check{
+            width: 15%;
+            color: black;
+            float: left;
+            padding:10px 18px;
+            background-color: white;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .container3{
+            background-color: #4B5B34;
+            padding: 65px 25px;
+        }
+        .footer{
+            width: 95%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            
+
+        }
+      .about,.customer,.reservation{
+            width: 20%;
+            padding: 0 10px;
+            
+
+        }
+        .ecotour{
+            width: 25%;
+        }
+        .ecotour p{
+            color: white;
+            font-size:13px; 
+            padding-left: 15px;
+        }
+        .ecotour img{
+            display: inline-block;
+        }
+        .about,.customer,.reservation,.contact h4{
+            color: #94C955;
+
+        }
+        .reservation h5{
+            color: white;
+            margin-bottom: 0;
+            display: inline-block;
+        }
+        .reservation p{
+            color: white;
+            margin-top: 0;
+            font-size: 14px;
+
+        }
+        .contact{
+            width: 15%;
+        }
+@media only screen and (max-width: 576px){
+
+    .top,.one,.two,.content,.guides{
+                width: 100%;
+     }
+         .touch,.lines,.get{
+                display: none;
+     }
+     .image{ 
+                width: 90%;
+           }
+     .bg{
+        background-size: 100% 100%;
+     }
+     .text h2{
+        font-size: 15px;
+     }
+     .text h1{
+        font-size: 35px;
+     }
+     .private{
+        width: 95%;
+     }
+     .private h1{
+        font-size: 30px;
+     }
+     .private p{
+        font-size: 15px;
+     }
+     .trips,.gallery,.gallery1,.content,.photo{
+        flex-direction: column;
+
+     }
+     .photo{
+        align-items: center;
+     }
+    .tailor,.tailor1{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+   .container{
+    background-size: 100% 100%;
+    height: 760px;
+   }
+   .container1{
+    flex-direction: column;
+    height: 75%;
+    top: 20%;
+    align-items: center;
+    
+   }
+   .get{
+    left: 30%;
+    top: 95%;
+   }
+   .info img{
+        width: 50%;
+   }
+   .info p{
+        font-size:12px; 
+   }
+   .inspire h1{
+        font-size: 28px;
+   }
+   .inspire p{
+    font-size: 13px;
+   }
+   .one p{
+    font-size: 14px;
+   }
+   .guides h1{
+        font-size: 25px;
+        text-align: center;
+   }
+
+   .experience{
+    width: 90%;
+    margin: 0 auto;
+
+   }
+   .experience1 p{
+    font-size: 13px;
+   }
+   .experience1{
+     height: 300px;
+
+   }
+   .meet{
+    width: 60%;
+    margin: 0 auto;
+   }
+   .trip{
+    display: block;
+    text-align: center;
+    width: 100%;
+   }
+   .book{
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+    }
+    .check{
+        float: none;
+        width: 80%;
+    }
+    .now h1{
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    .about,.customer,.reservation,.ecotour,.contact{
+        width: 100%;
+       
+    }
+    .about,.customer,.reservation,.ecotour{
+        border-bottom: 4px solid green;
+    }
+}

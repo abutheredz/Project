@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+html,body{
+    overflow-x: hidden;
+
+}
+.clear{
+    clear: both;
+}
+.top{
+   width: 90%;
+   margin: 0 auto;
+   padding-top: 17px;
+   padding-bottom: 15px;
+   padding-right: 15px;
+   overflow: hidden;
+}
+.lines{
+   padding:22px 16px;
+   float: left;
+   font-size: 28px;
+}
+.touch{
+   width: 200px;
+   padding: 10px;
+   border: 1px solid green;
+   float: right;
+   margin-top: 25px;   		
+
+       }
+       i{
+           margin-right: 10px;
+       }
+   .touch span{
+       font-size: 12px;
+   }
+   .image{
+       width: 400px;
+       margin-left:auto;
+       margin-right:auto;     	    	
+   }
+   .bg{
+       background-image: url("0e.jpg");
+       height: 450px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position:center;
+       position: relative;
+   }
+   .absolute{
+       position: absolute;
+       left: 30%;
+       top: 25%;
+       width: 35%;
+       padding: 10px 16px;
+       text-align: center;
+   }
+   .absolute h3{
+       color: white;
+       font-size: 25px;
+   }
+   .absolute h1{
+       font-size: 45px;
+       color: white;
+   }
+  .book{ 
+          width: 150px;
+       padding: 10px 16px;
+       margin: 0 auto;
+       text-align: center;
+       background-color: #9BCD52;
+       color: white;
+       font-size: 14px;
+       font-weight: bold;
+   }
+   .section{
+       width: 90%;
+       margin: 0 auto;
+       padding: 30px 0;
+   }
+   .section1{
+       width: 93%;
+       border-bottom: 1px solid green;
+       height: 40px;
+       overflow: hidden;
+   }
+   
+   .section3{
+       width: 13%;
+       padding: 6px 0;
+       font-weight: bold;
+       float: left;
+       font-size: 14px;
+       margin-right: 150px;
+       height: 40px;
+       text-align: center;
+       border-bottom: 4px solid green;
+   }
+   .section4{
+       width: 13%;
+       padding: 8px 0;
+       margin-right: 150px;
+       float: left;
+       text-align: center;
+   }
+   .info{
+       display: flex;
+       flex-wrap: wrap;
+       padding: 30px 0;
+                       
+   }
+   .depart{
+       width: 30%;
+       padding: 8px 20px;
+       background-color: #F6F6F6;
+       margin-right: 35px;
+   }
+   .detail p{
+       border-bottom: 1px solid black;
+       padding-bottom: 8px;
+       font-size: 17px;
+   }
+   .price{
+       padding: 12px 16px;
+       background-color: #EEEEEE;
+       text-align: center;
+   }
+   .span{
+       padding: 4px;
+       color: white;
+       text-align: center;
+       background-color: #9BCD52;
+       width: 50px;
+       border-bottom: none;
+       font-weight: bold;
+       font-size: 18px;
+       
+   }
+   .map{
+       width: 60%;
+
+   }
+     .map img{
+         width: 100%;
+         height: 100%;
+     }
+     .gallery{
+         display: flex;
+         flex-wrap: wrap;
+         margin-bottom: 70px;
+
+     }
+     .one{
+         width: 20%;
+         background-image: url("69a2eb5b-2ae8-451a-b36c-5e4adcd1a482.jpeg")
+         ;
+         height: 450px;
+         background-size:cover;
+         background-position:bottom;
+         background-repeat: no-repeat;
+         margin-left: -20px;
+
+     }
+     .two{
+         width: 60%;
+         background-image: url("horseback-riding-4.jpg");
+         height: 450px;
+         background-size:cover;
+         background-position:center;
+         background-repeat: no-repeat;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .three{
+         width: 20%;
+         background-image: url("Costa-Paraiso-Dominican-Republic-26ce2b464d35665fd8bbe2b34410c695.jpg");
+         height: 450px;
+         background-size:cover;
+         background-position:right;
+         background-repeat: no-repeat;
+          margin-right:  -20px;
+
+     }
+     .book1{
+         width: 13%;
+         margin: 0 auto;
+         padding:12px;
+         color: white;
+         text-align: center;
+         background-color: #9BCD52;
+     }
+     .container3{
+   background-color: #4B5B34;
+   padding: 65px 25px;
+}
+.footer{
+   width: 95%;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   
+
+}
+.about,.customer,.reservation{
+   width: 20%;
+   padding: 0 10px;
+   
+
+}
+.ecotour{
+   width: 25%;
+}
+.ecotour p{
+   color: white;
+   font-size:13px; 
+   padding-left: 15px;
+}
+.ecotour img{
+   display: inline-block;
+}
+.about,.customer,.reservation,.contact h4{
+   color: #94C955;
+
+}
+.reservation h5{
+   color: white;
+   margin-bottom: 0;
+   display: inline-block;
+}
+.reservation p{
+   color: white;
+   margin-top: 0;
+   font-size: 14px;
+
+}
+.contact{
+   width: 15%;
+} 
+@media only screen and (max-width: 576px)
+{
+.top{
+       width: 100%;
+   }
+   .touch,.lines,.one,.three{
+       display: none;
+   }
+  .image{ 
+       width: 90%;
+  }
+  .bg{
+   background-size: 100% 100%;
+   object-fit: cover;
+  }
+  .absolute{
+       left: 0;
+  }
+  .absolute h3{
+   font-size: 20px;
+  }
+  .absolute h1{
+   font-size: 28px;
+  }
+  .book{
+    font-size: 12px;
+
+  }
+  .section h1{
+   font-size: 18px;
+  }
+ .info{
+     flex-direction: column;
+ }
+ .depart{
+   width: 100%;
+ }
+ .map{
+   width: 100%;
+   margin-top: 10px;
+ }
+ .detail h4{
+   font-size: 16px;
+ }
+ .detail p{
+   font-size: 14px;
+ }
+
+ .price p{
+   font-size: 14px;
+ }
+ .two{
+   width: 100%;
+   background-size: 100% 100%;
+
+ }
+ .book1{
+   width: 40%;
+ }
+  .about,.customer,.reservation,.ecotour,.contact{
+width: 100%;
+
+}
+.about,.customer,.reservation,.ecotour{
+border-bottom: 4px solid green;
+}
+
+
+}
